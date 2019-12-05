@@ -1,0 +1,3372 @@
+{
+  "name": "CatBot",
+  "intents": [
+    {
+      "intent": "declaracoes",
+      "examples": [
+        {
+          "text": "como emito declarações"
+        },
+        {
+          "text": "como faço pra emitir declaração"
+        },
+        {
+          "text": "queria uma declaração"
+        },
+        {
+          "text": "como vejo minhas notas"
+        },
+        {
+          "text": "preciso do meu historico escolar"
+        },
+        {
+          "text": "onde solicito declarações"
+        },
+        {
+          "text": "onde pego uma declaração"
+        }
+      ],
+      "description": "Usuário deseja solicitar declarações."
+    },
+    {
+      "intent": "enade",
+      "examples": [
+        {
+          "text": "para que serve o enade"
+        },
+        {
+          "text": "O que é o ENADE"
+        },
+        {
+          "text": "o que é enade"
+        },
+        {
+          "text": "como participo do enade"
+        },
+        {
+          "text": "como sei se estou participando do enade"
+        }
+      ],
+      "description": "Usuário deseja informações sobre o ENADE."
+    },
+    {
+      "intent": "projeto_final",
+      "examples": [
+        {
+          "text": "como faço pra me inscrever pro tcc?"
+        },
+        {
+          "text": "Como me inscrever pra monografia?"
+        },
+        {
+          "text": "quero fazer a monografia"
+        },
+        {
+          "text": "quero puxar tcc"
+        },
+        {
+          "text": "quero puxar projeto final"
+        },
+        {
+          "text": "quero me inscrever no tcc"
+        },
+        {
+          "text": "como faço pra apresentar o tcc?"
+        },
+        {
+          "text": "desejo me inscrever para projeto de aplicação"
+        },
+        {
+          "text": "desejo apresentar projeto de aplicação 2"
+        },
+        {
+          "text": "Como me inscrevo pro projeto final?"
+        },
+        {
+          "text": "quero me inscrever no projeto final"
+        },
+        {
+          "text": "quero me inscrever na monografia"
+        },
+        {
+          "text": "quero apresentar o tcc"
+        },
+        {
+          "text": "quero fazer o projeto final"
+        },
+        {
+          "text": "Como me inscrevo pro tcc?"
+        },
+        {
+          "text": "Como me inscrever pra projeto de aplicação?"
+        },
+        {
+          "text": "quero fazer o tcc"
+        }
+      ],
+      "description": "Aluno deseja informações sobre monografia, projeto final, tcc."
+    },
+    {
+      "intent": "inscricao",
+      "examples": [
+        {
+          "text": "quando devo fazer inscrição online"
+        },
+        {
+          "text": "por que fazer inscrição online"
+        },
+        {
+          "text": "quando devo fazer inscrição presencial"
+        },
+        {
+          "text": "onde faço inscrição presencial"
+        },
+        {
+          "text": "como faço inscrição online"
+        },
+        {
+          "text": "como faço minha inscrição online"
+        },
+        {
+          "text": "como me inscrevo nas matérias"
+        },
+        {
+          "text": "como faço a inscrição em disciplinas"
+        },
+        {
+          "text": "como faço pra me inscrever em disciplinas"
+        },
+        {
+          "text": "como me inscrevo em disciplinas"
+        }
+      ],
+      "description": "Usuário deseja informações sobre inscrição online ou presencial."
+    },
+    {
+      "intent": "boasvindas",
+      "examples": [
+        {
+          "text": "Oi!"
+        },
+        {
+          "text": "Ola"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "OLlá"
+        },
+        {
+          "text": "Qual é?"
+        },
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "E ai"
+        },
+        {
+          "text": "Ei"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Oi como vai?"
+        },
+        {
+          "text": "Oi robô"
+        },
+        {
+          "text": "Oi tudo bem"
+        },
+        {
+          "text": "oie"
+        },
+        {
+          "text": "Oiii!"
+        }
+      ],
+      "description": "Usuário inicia uma conversa."
+    },
+    {
+      "intent": "piada",
+      "examples": [
+        {
+          "text": "conta uma piada"
+        },
+        {
+          "text": "me conta uma piada"
+        },
+        {
+          "text": "fala uma piada aí"
+        },
+        {
+          "text": "conta una anedota"
+        },
+        {
+          "text": "mais uma piada"
+        },
+        {
+          "text": "conte uma anedota"
+        },
+        {
+          "text": "conta outra piada"
+        }
+      ],
+      "description": "Usuário pede que bot conte uma piada."
+    },
+    {
+      "intent": "matricula",
+      "examples": [
+        {
+          "text": "como tranco minha matrícula"
+        },
+        {
+          "text": "como faço o cancelamento de matrícula"
+        },
+        {
+          "text": "como faço para trancar minha matrícula"
+        },
+        {
+          "text": "como faço para cancelar minha matrícula"
+        },
+        {
+          "text": "como faço o trancamento de matrícula"
+        },
+        {
+          "text": "como realizo minha rematrícula"
+        },
+        {
+          "text": "como cancelo minha matrícula"
+        }
+      ],
+      "description": "Usuário deseja informações sobre a matrícula."
+    },
+    {
+      "intent": "pedir_contexto",
+      "examples": [
+        {
+          "text": "Você é um robô?"
+        },
+        {
+          "text": "O que você é?"
+        },
+        {
+          "text": "Quem é tu"
+        },
+        {
+          "text": "Com quem estou falando?"
+        },
+        {
+          "text": "Estou falando com um ser humano?"
+        },
+        {
+          "text": "To falando com uma pessoa?"
+        },
+        {
+          "text": "To falando com um robô?"
+        },
+        {
+          "text": "Descreva-se"
+        },
+        {
+          "text": "Se descreve pra mim ai"
+        },
+        {
+          "text": "Fala quem você é"
+        },
+        {
+          "text": "Me fale sobre sua vida"
+        },
+        {
+          "text": "É um computador que ta falando?"
+        },
+        {
+          "text": "É um pc que tá falando?"
+        },
+        {
+          "text": "Você é humano?"
+        },
+        {
+          "text": "Quantas línguas você fala?"
+        },
+        {
+          "text": "O que devo saber sobre você?"
+        },
+        {
+          "text": "Quantos anos você têm?"
+        },
+        {
+          "text": "Qual a sua idade/"
+        },
+        {
+          "text": "Qual o seu nome?"
+        },
+        {
+          "text": "Quando você nasceu?"
+        },
+        {
+          "text": "Por que você esta aqui?"
+        },
+        {
+          "text": "Como você funciona"
+        },
+        {
+          "text": "Quem tá ai?"
+        },
+        {
+          "text": "Quem tá falando?"
+        },
+        {
+          "text": "Quem é você?"
+        },
+        {
+          "text": "Quem é?"
+        }
+      ],
+      "description": "Usuário pede contextualização de quem está falando."
+    },
+    {
+      "intent": "agradecer",
+      "examples": [
+        {
+          "text": "Era isso mesmo que eu tava procurando"
+        },
+        {
+          "text": "É isso mesmo que eu queria"
+        },
+        {
+          "text": "Você é um gênio"
+        },
+        {
+          "text": "vc é um genio"
+        },
+        {
+          "text": "vc é mto util"
+        },
+        {
+          "text": "voce é o cara"
+        },
+        {
+          "text": "vc é show"
+        },
+        {
+          "text": "brigada"
+        },
+        {
+          "text": "valeuu"
+        },
+        {
+          "text": "obrigadinha"
+        },
+        {
+          "text": "valeuuu"
+        },
+        {
+          "text": "valeu"
+        },
+        {
+          "text": "Obrigada!"
+        },
+        {
+          "text": "Obrigado!"
+        },
+        {
+          "text": "obrigada"
+        },
+        {
+          "text": "obg"
+        },
+        {
+          "text": "muito obrigado"
+        },
+        {
+          "text": "vlw"
+        },
+        {
+          "text": "valeu!"
+        },
+        {
+          "text": "valeuzao"
+        },
+        {
+          "text": "Agradeço"
+        },
+        {
+          "text": "mto obg"
+        },
+        {
+          "text": "vlw!"
+        },
+        {
+          "text": "Ok obrigado"
+        },
+        {
+          "text": "Ok valeu"
+        },
+        {
+          "text": "Era exatamente isso que eu queria saber"
+        },
+        {
+          "text": "Era isso mesmo que eu queria saber"
+        },
+        {
+          "text": "Era isso msm"
+        }
+      ],
+      "description": "Usuário agradece pela informação prestada."
+    },
+    {
+      "intent": "carteirinha",
+      "examples": [
+        {
+          "text": "queria solicitar minha carteirinha"
+        },
+        {
+          "text": "como tiro carteira de estudante"
+        },
+        {
+          "text": "queria solicitar minha carteirinha de estudante da uff"
+        },
+        {
+          "text": "como cancelo minha carterinha de estudante"
+        },
+        {
+          "text": "e como bloqueio?"
+        },
+        {
+          "text": "como bloquear minha carteirinha"
+        },
+        {
+          "text": "quero pedir minha carteira de estudante"
+        }
+      ],
+      "description": "Usuário deseja solicitar carteirinha de estudante da UFF."
+    },
+    {
+      "intent": "atividade_complementar",
+      "examples": [
+        {
+          "text": "O que preciso para integralizar AC"
+        },
+        {
+          "text": "Como incluir AC"
+        },
+        {
+          "text": "Como adicionar horas de AC?"
+        },
+        {
+          "text": "Como faço para adicionar horas de atividade complementar"
+        },
+        {
+          "text": "Gostaria de saber como incluir atividades complementares?"
+        },
+        {
+          "text": "ac"
+        },
+        {
+          "text": "sistemas"
+        },
+        {
+          "text": "como solicito atividade complementar?"
+        }
+      ],
+      "description": "Aluno deseja informações sobre atividades complementares."
+    },
+    {
+      "intent": "ajustes",
+      "examples": [
+        {
+          "text": "como ajusto meu plano de estudos"
+        },
+        {
+          "text": "como solicito ajuste no plano de estudos"
+        },
+        {
+          "text": "como solicito ajustes de matérias"
+        },
+        {
+          "text": "quero cancelar uma disciplina"
+        },
+        {
+          "text": "como faço ajuste de disciplinas"
+        },
+        {
+          "text": "como faço ajustes no plano de estudos"
+        },
+        {
+          "text": "quero trocar de turma"
+        },
+        {
+          "text": "como faço ajuste em disciplinas"
+        }
+      ],
+      "description": "Usuário deseja realizar ajustes no plano de estudos."
+    },
+    {
+      "intent": "como_esta",
+      "examples": [
+        {
+          "text": "Como voce tá"
+        },
+        {
+          "text": "Como vc ta?"
+        },
+        {
+          "text": "Tudo bem?"
+        },
+        {
+          "text": "Como ta vc?"
+        },
+        {
+          "text": "Como ta indo?"
+        },
+        {
+          "text": "To feliz"
+        },
+        {
+          "text": "To trise"
+        },
+        {
+          "text": "To triste"
+        },
+        {
+          "text": "To mal"
+        },
+        {
+          "text": "To bolado"
+        },
+        {
+          "text": "Estou feliz"
+        },
+        {
+          "text": "Estou triste"
+        },
+        {
+          "text": "Estou mal"
+        },
+        {
+          "text": "Estou puto"
+        },
+        {
+          "text": "To puto"
+        },
+        {
+          "text": "Estou contente"
+        },
+        {
+          "text": "Estou animado"
+        },
+        {
+          "text": "To animado"
+        },
+        {
+          "text": "To animada"
+        },
+        {
+          "text": "to melhor"
+        },
+        {
+          "text": "Tudo bom?"
+        }
+      ],
+      "description": "Usuário deseja bater papo."
+    },
+    {
+      "intent": "ajuda_humana",
+      "examples": [
+        {
+          "text": "me passe para um humano"
+        },
+        {
+          "text": "me mande para um humano por favor"
+        },
+        {
+          "text": "me passa pra uma pessoa"
+        },
+        {
+          "text": "me manda pra uma pessoa de verdade"
+        },
+        {
+          "text": "quero falar com um ser humano"
+        },
+        {
+          "text": "quero falar com uma pessoa"
+        },
+        {
+          "text": "quero falar com um humano"
+        }
+      ],
+      "description": "Usuário deseja ajuda humana."
+    },
+    {
+      "intent": "dispensa",
+      "examples": [
+        {
+          "text": "como solicito dispensa em disciplinas"
+        },
+        {
+          "text": "como solicito dispensa em matérias"
+        },
+        {
+          "text": "como solicito equivalência em disciplinas"
+        },
+        {
+          "text": "como solicito equivalência em matéria"
+        },
+        {
+          "text": "como solicito disciplinas equivalentes"
+        },
+        {
+          "text": "como dispenso disciplinas equivalentes"
+        },
+        {
+          "text": "como solicito equivalências"
+        },
+        {
+          "text": "como peço dispensa de disciplina"
+        },
+        {
+          "text": "como realizo dispensa em disciplinas"
+        }
+      ],
+      "description": "Usuário deseja solicitar dispensa em disciplinas."
+    },
+    {
+      "intent": "despedida",
+      "examples": [
+        {
+          "text": "falou"
+        },
+        {
+          "text": "Até logo"
+        },
+        {
+          "text": "Até mais"
+        },
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Flw"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Xau"
+        },
+        {
+          "text": "Tchauzinho"
+        }
+      ],
+      "description": "Usuário se despede."
+    },
+    {
+      "intent": "estagio",
+      "examples": [
+        {
+          "text": "quero assinar contrato de estágio?"
+        },
+        {
+          "text": "quero fazer estágio"
+        },
+        {
+          "text": "Quais os procedimentos pra assinar meu contrato de estágio?"
+        },
+        {
+          "text": "Quais os requisitos pra fazer estágio?"
+        },
+        {
+          "text": "Como faço estágio?"
+        },
+        {
+          "text": "como saber se tenho permissão para fazer estágio"
+        },
+        {
+          "text": "como saber se estou apto a realizar estágio"
+        },
+        {
+          "text": "quero que o coordenador assine meu contrato de estágio"
+        },
+        {
+          "text": "quero assinar meu contrato de estágio"
+        }
+      ],
+      "description": "Aluno deseja informações sobre estágio."
+    },
+    {
+      "intent": "pedir_ajuda",
+      "examples": [
+        {
+          "text": "Me ajuda"
+        },
+        {
+          "text": "ajuda ae"
+        },
+        {
+          "text": "Ajuda aí pls"
+        },
+        {
+          "text": "me ajuda por favor"
+        },
+        {
+          "text": "Ajuda aí pf"
+        },
+        {
+          "text": "Help"
+        },
+        {
+          "text": "Preciso de ajuda"
+        },
+        {
+          "text": "Uma dúvida"
+        },
+        {
+          "text": "Uma pergunta"
+        },
+        {
+          "text": "Tenho uma pergunta"
+        },
+        {
+          "text": "Estou com um questionamento"
+        },
+        {
+          "text": "Estou com uma dúvida"
+        },
+        {
+          "text": "Tô com uma dúvida"
+        },
+        {
+          "text": "To com um problema"
+        },
+        {
+          "text": "Me tira uma dúvida"
+        }
+      ],
+      "description": "Usuário pede ajuda ao assistente."
+    },
+    {
+      "intent": "cederj",
+      "examples": [
+        {
+          "text": "como faço disciplinas online?"
+        },
+        {
+          "text": "Como faço cederj"
+        },
+        {
+          "text": "Como faço pra me inscrever no cederj?"
+        },
+        {
+          "text": "posso fazer disciplinas online"
+        },
+        {
+          "text": "como me inscrevo em disciplinas online"
+        },
+        {
+          "text": "como me inscrevo pra mobilidade acadêmica"
+        },
+        {
+          "text": "como faço mobilidade acadêmica"
+        },
+        {
+          "text": "como me inscrevo no cederj"
+        },
+        {
+          "text": "o que é cederj"
+        }
+      ],
+      "description": "Usuário deseja informações sobre o CEDERJ."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "carteirinha",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bloquear",
+          "synonyms": [
+            "cancelar",
+            "anular",
+            "invalidar",
+            "bloqueio",
+            "cancelo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "perda",
+          "synonyms": [
+            "perdi",
+            "roubo",
+            "roubado",
+            "roubada",
+            "perdida"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "solicitar",
+          "synonyms": [
+            "pedir",
+            "tirar",
+            "registrar",
+            "fazer",
+            "cadastrar",
+            "solicito",
+            "tiro",
+            "registro",
+            "faço",
+            "cadastro",
+            "peço",
+            "solicito a carteirinha"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "inscricao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "presencial",
+          "synonyms": [
+            "inscrição presencial",
+            "presencialmente",
+            "inscrição presencialmente",
+            "inscricao presencial"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "online",
+          "synonyms": [
+            "inscrição online",
+            "on-line",
+            "inscrição on-line",
+            "inscricao online"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sentimentos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "mal",
+          "synonyms": [
+            "mal",
+            "bolado",
+            "descontente",
+            "bad",
+            "chateado",
+            "raiva",
+            "puto",
+            "pistola"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tudo bem?",
+          "synonyms": [
+            "como está?",
+            "tudo bom?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bem",
+          "synonyms": [
+            "alegre",
+            "contente",
+            "animado",
+            "saltitante",
+            "feliz",
+            "melhor",
+            "eba",
+            "oba",
+            "animada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "indiferente",
+          "synonyms": [
+            "tanto faz",
+            "normal",
+            "sei lá"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "curso",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "sistemas",
+          "synonyms": [
+            "Sistemas de informação",
+            "SI",
+            "Sist Info",
+            "sistemas de info"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "computacao",
+          "synonyms": [
+            "Ciência de Computação",
+            "CC",
+            "Computação",
+            "Ciência da computação"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "matricula",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "trancar",
+          "synonyms": [
+            "trancamento",
+            "tranco",
+            "trancar matrícula",
+            "trancar minha matrícula",
+            "trancamento de matrícula"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cancelar",
+          "synonyms": [
+            "cancelamento",
+            "cancelo",
+            "cancelar matrícula",
+            "cancelo minha matrícula",
+            "cancelar minha matrícula",
+            "cancelamento de matrícula"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "rematricula",
+          "synonyms": [
+            "rematrícula",
+            "rematricular",
+            "rematriculo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "atividade_complementar",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "tipos",
+          "synonyms": [
+            "o que é considerado",
+            "o que vale como",
+            "o que é valido",
+            "requisitos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "deletar",
+          "synonyms": [
+            "excluir",
+            "remover",
+            "excluo",
+            "deleto",
+            "removo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "editar",
+          "synonyms": [
+            "modificar",
+            "mudar",
+            "edito",
+            "modifico",
+            "mudo",
+            "atualizar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "incluir",
+          "synonyms": [
+            "adicionar",
+            "inserir",
+            "solicitar",
+            "solicito",
+            "incluo",
+            "adiciono",
+            "insiro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "definição",
+          "synonyms": [
+            "o que é",
+            "oq é",
+            "oq significa",
+            "oque significa"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "dispensa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "uff",
+          "synonyms": [
+            "universidade federal fluminense",
+            "UFF"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "estrangeira",
+          "synonyms": [
+            "instituição estrangeira",
+            "universidade estrangeira",
+            "universidade de fora"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nacional",
+          "synonyms": [
+            "instituição nacional",
+            "brasileira",
+            "instituição brasileira",
+            "universidade nacional",
+            "universidade brasileira"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "proficiencia",
+          "synonyms": [
+            "exame de proficiencia",
+            "exame de proficiência",
+            "proficiência",
+            "prova de proficiência",
+            "prova de proficiencia"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cederj",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "inscrever",
+          "synonyms": [
+            "inscrição",
+            "inscricao",
+            "inscrição no cederj",
+            "inscrevo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cancelar",
+          "synonyms": [
+            "cancelamento",
+            "cancelar inscrição",
+            "cancelamento de inscrição"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "projeto_final",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "inscrever",
+          "synonyms": [
+            "puxar",
+            "inscrição",
+            "tcc1",
+            "projeto 1",
+            "tcc 1",
+            "projeto final 1",
+            "projeto de aplicação 1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "apresentar",
+          "synonyms": [
+            "marcar data",
+            "finalizar",
+            "tcc 2",
+            "tcc2",
+            "projeto 2",
+            "projeto final 2",
+            "apresentação",
+            "finalização",
+            "projeto de aplicação 2"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "estagio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "assinar",
+          "synonyms": [
+            "assinar contrato",
+            "contrato",
+            "assinar",
+            "solicitar assinatura",
+            "solicitar",
+            "assinatura",
+            "solicitação"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "procedimentos",
+          "synonyms": [
+            "condições",
+            "requisitos",
+            "apto",
+            "permitido",
+            "permissão"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ajustes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "incluir",
+          "synonyms": [
+            "inclusão",
+            "incluir materia",
+            "incluir disciplina",
+            "incluir matéria",
+            "adicionar matéria",
+            "adicionar materia",
+            "inclusão de disciplina",
+            "adiciono",
+            "incluo",
+            "incluir uma disciplina",
+            "incluir uma matéria",
+            "incluo uma disciplina"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cancelar",
+          "synonyms": [
+            "cancelar matéria",
+            "cancelar materia",
+            "cancelar disciplina",
+            "cancelamento de materia",
+            "cancelamento de matéria",
+            "cancelamento de disciplina",
+            "cancelo",
+            "cancelar uma disciplina",
+            "cancelar uma matéria"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "turma",
+          "synonyms": [
+            "trocar turma",
+            "troca de turma",
+            "troco turma",
+            "troco de turma",
+            "trocar de turma"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "declaracao_tipo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cota",
+          "synonyms": [
+            "cota vestibular",
+            "cota no vestibular",
+            "acao afirmativa",
+            "ação afirmativa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "historico",
+          "synonyms": [
+            "histórico",
+            "histórico escolar",
+            "historico escolar",
+            "notas",
+            "histórico acadêmico",
+            "historico academico"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pontuacao",
+          "synonyms": [
+            "pontuação no vestibular",
+            "pontuacao no vestibular",
+            "pontuação vestibular"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "matricula",
+          "synonyms": [
+            "matrícula",
+            "regularidade",
+            "regularidade de matrícula",
+            "regularidade de matricula",
+            "aluno regular",
+            "matrícula regular",
+            "declaração de matrícula"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "b75449a5-33f8-4c64-b6c9-fde3735b4e44",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Para qual curso deseja informações sobre Estágio?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1575268753283",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1575268753315",
+      "previous_sibling": "handler_2_1575268753315"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1575268753283",
+      "context": {
+        "curso": "@curso"
+      },
+      "conditions": "@curso",
+      "event_name": "input",
+      "dialog_node": "handler_2_1575268753315"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Deseja saber informações sobre inscrição ou apresentação e trâmites finais do Projeto Final?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1575267418118",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1575267418123",
+      "previous_sibling": "handler_3_1575267418123"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1575267418118",
+      "context": {
+        "projeto_final": "@projeto_final"
+      },
+      "conditions": "@projeto_final",
+      "event_name": "input",
+      "dialog_node": "handler_3_1575267418123"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1575488412003",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1575488412023",
+      "previous_sibling": "handler_9_1575488412023"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1575488412003",
+      "context": {
+        "carteirinha": "@carteirinha"
+      },
+      "conditions": "@carteirinha",
+      "event_name": "input",
+      "dialog_node": "handler_9_1575488412023"
+    },
+    {
+      "type": "frame",
+      "title": "Projeto Final",
+      "parent": "node_6_1574795142458",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#projeto_final",
+      "dialog_node": "node_7_1574806506987",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_9_1574806500482",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "ENADE",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O ENADE é componente curricular obrigatório dos cursos de graduação, sendo o registro de participação ou dispensa justificada condições indispensáveis para a emissão do histórico escolar.\n<br />\nO Exame Nacional de Desempenho de Estudantes que integra o Sistema Nacional de Avaliação da Educação Superior (SINAES), tem o objetivo de aferir o rendimento dos estudantes dos cursos de graduação em relação aos conteúdos programáticos, suas habilidades e competências.\n<br />\nO resultado do ENADE classifica a Instituição de Ensino a partir da prova aplicada ao estudante. Entretanto, não é um processo de avaliação do aluno individualmente considerado, mas sim dos cursos de graduação através da aferição das competências adquiridas pelos estudantes.\n<br />\nSe o estudante de um curso avaliado foi considerado como habilitado a participar do ENADE na condição concluinte, isto é, na condição de formando ou provável formando do semestre em curso ou o seguinte, está sujeito a fazer a prova do ENADE. Deve fazê-la pois, do contrário, estará impedido de colar grau e obter seu diploma de graduação até que a situação seja regularizada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1574795142458",
+      "conditions": "#enade",
+      "dialog_node": "node_4_1575487973451",
+      "previous_sibling": "node_8_1575485455114"
+    },
+    {
+      "type": "frame",
+      "title": "Inscrição",
+      "parent": "node_6_1574795142458",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#inscricao",
+      "dialog_node": "node_3_1575500820973",
+      "previous_sibling": "node_4_1575498541668"
+    },
+    {
+      "type": "frame",
+      "title": "Estágio",
+      "parent": "node_6_1574795142458",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#estagio",
+      "dialog_node": "node_9_1574806500482",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1574796074218",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "Plano de Estudos",
+      "parent": "node_6_1574795142458",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#ajustes",
+      "dialog_node": "node_4_1575495745742",
+      "previous_sibling": "node_2_1575493914515"
+    },
+    {
+      "type": "frame",
+      "title": "CEDERJ",
+      "parent": "node_6_1574795142458",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#cederj",
+      "dialog_node": "node_6_1575492790824",
+      "previous_sibling": "node_4_1575487973451"
+    },
+    {
+      "type": "frame",
+      "title": "Matrícula",
+      "parent": "node_6_1574795142458",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#matricula",
+      "dialog_node": "node_2_1575493914515",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_6_1575492790824",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "Carteirinha",
+      "parent": "node_6_1574795142458",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#carteirinha",
+      "dialog_node": "node_8_1575485455114",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_9_1575483664544",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "title": "Dispensa",
+      "parent": "node_6_1574795142458",
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#dispensa",
+      "dialog_node": "node_4_1575498541668",
+      "previous_sibling": "node_4_1575495745742"
+    },
+    {
+      "type": "frame",
+      "title": "Declarações",
+      "parent": "node_6_1574795142458",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#declaracoes",
+      "dialog_node": "node_9_1575483664544",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1574806506987",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "title": "Atividade Complementar",
+      "parent": "node_6_1574795142458",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#atividade_complementar",
+      "dialog_node": "node_2_1574796074218",
+      "digress_out": "allow_all",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Até mais! Miau Miau!"
+              },
+              {
+                "text": "Miau! Foi bom falar com você!"
+              },
+              {
+                "text": "Até logo! Espero ter sido útil."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1572303262953",
+      "conditions": "#despedida",
+      "dialog_node": "node_10_1572303529268",
+      "previous_sibling": "node_2_1572303509965"
+    },
+    {
+      "type": "standard",
+      "title": "Como está?",
+      "parent": "node_8_1572303262953",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#como_esta || @sentimentos",
+      "dialog_node": "node_10_1572303480236",
+      "previous_sibling": "node_1_1572303336263"
+    },
+    {
+      "type": "standard",
+      "title": "Contar uma piada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual é a comida favorita de um gato? Qualquer coisa no seu prato!"
+              },
+              {
+                "text": "Como você chama uma pilha de gatinhos? Miautanha!"
+              },
+              {
+                "text": "Que gato pode pular mais alto que uma árvore? Qualquer gato pode pular mais alto que uma árvore, as árvores não podem pular."
+              },
+              {
+                "text": "O que o cachorro disse depois de defecar dentro da casa? O gato faz o mesmo e você não fica com raiva."
+              },
+              {
+                "text": "Qual é a diferença entre um cão e um gato?<br />\nUm cão olha em redor e pensa: Hum… Estas pessoas dão-me de comer, abrigam-me, fazem-me festas, tratam de mim… Devem ser deuses!\n<br />\nUm gato olha em redor e pensa: Hum… Estas pessoas dão-me de comer, abrigam-me, fazem-me festas, tratam de mim… Eu devo ser um Deus!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_8_1572303262953",
+      "conditions": "#piada",
+      "dialog_node": "node_4_1575501792416",
+      "previous_sibling": "node_10_1572303529268"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que bom que fui útil! Se tiver algo mais em que eu possa ajudar, é só falar!"
+              },
+              {
+                "text": "Fico feliz em ajudar! Qualquer outra dúvida, estou aqui."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1572303262953",
+      "context": {},
+      "conditions": "#agradecer",
+      "dialog_node": "node_2_1572303509965",
+      "previous_sibling": "node_10_1572303480236"
+    },
+    {
+      "type": "standard",
+      "title": "Boas vindas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Miau! Tudo bem? Como posso te ajudar hoje?"
+              },
+              {
+                "text": "Oie! No que você está precisando de ajuda?"
+              },
+              {
+                "text": "Meow! Qual é sua dúvida?"
+              },
+              {
+                "text": "Olá! Que problema vamos resolver hoje?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1572303262953",
+      "conditions": "#boasvindas",
+      "dialog_node": "node_1_1572303336263"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1574806500482",
+      "variable": "$estagio",
+      "dialog_node": "slot_5_1575268785861",
+      "previous_sibling": "slot_10_1575268753283"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Estágio Curricular Profissional do Curso de Graduação em Ciência da Computação será desenvolvido na modalidade de Estágio Curricular não obrigatório. Os principais requisitos para realizar estágio são: <br />\n<br />\n- A duração do estágio, na mesma organização concedente, não poderá exceder 2 (dois) anos, exceto quando se tratar de estagiário com deficiência.<br />\n- A jornada de atividade em estágio deve ser compatível com as atividades escolares e não ultrapassar 6 (seis) horas diárias e 30 (trinta) horas semanais. Em períodos de férias, o aluno poderá dedicar-se ao Estágio de forma intensiva, com carga horária de até 40 (quarenta) horas semanais. <br />\n- Para estar apto a realizar o Estágio de até 20 (vinte) horas semanais, o aluno deve ter integralizado o mínimo de 1088 horas e ter cursado, com aprovação, as disciplinas: Programação I e II, Estruturas de Dados e seus Algoritmos e Fundamentos de Arquiteturas de Computadores.<br />\n- Para estar apto a realizar o Estágio de até 30 (trinta) horas semanais, o aluno deve ter integralizado o mínimo de 1888 horas e ter cursado, com aprovação, as disciplinas citadas acima.<br />\n- Para estar apto a realizar Estágio interno na UFF, o aluno deve ter integralizado o mínimo de 672 horas e ter cursado, com aprovação, as disciplinas: Programação I e II e Fundamentos de Arquiteturas de Computadores.<br />\n<br />\nMais informações sobre estágio podem ser encontradas em: http://www.ic.uff.br/index.php/pt/curriculo-e-disciplinas/estagio"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1574806500482",
+      "conditions": "$curso:computacao and $estagio:procedimentos",
+      "dialog_node": "response_4_1575269252814",
+      "previous_sibling": "response_3_1575269238194"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O estágio no curso de Sistemas de Informação é desenvolvido na modalidade de não obrigatório, podendo, ainda, ser utilizado para fins de Atividade Complementar, conforme regulamento vigente.<br /><br />O regulamento de estágio para o curso de Sistemas de Informação e documentos relacionados podem ser encontrados no link a seguir: http://www.ic.uff.br/index.php/pt/estagio-si"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1574806500482",
+      "conditions": "$curso:sistemas",
+      "dialog_node": "response_10_1575483458255",
+      "previous_sibling": "response_4_1575269252814"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para ter o contrato de estágio assinado, é necessário preencher o formulário de entrada de dados e entrar em contato com a Coordenação do respectivo curso.\n<br />\nO formulário citado acima e mais informações sobre estágio podem ser encontrados em: http://www.ic.uff.br/index.php/pt/curriculo-e-disciplinas/estagio"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1574806500482",
+      "conditions": "$curso:computacao and $estagio:assinar",
+      "dialog_node": "response_3_1575269238194",
+      "previous_sibling": "response_6_1575269008240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Após verificar que satisfaz os requisitos e constatar que a empresa é conveniada com a UFF, o discente deve:\n<br />\n1. Entrar no SolicitaSI (http://www.leocruz.pro.br/solicitasi/), preencher a solicitação de estágio e imprimir os formulários que serão gerados (Formulário de Entrada de Dados ; Plano de Atividades);<br />\n2. Levar Plano de Atividades para empresa descrever as atividades a serem realizadas como estagiário;<br />\n3. Pegar contrato na empresa ou intermediadora (CIEE, etc) e entregar na Coordenação do Curso (sala 408) junto com o Plano de Atividades, ambos já assinados pela empresa, e o Formulário de Entrada de Dados;<br />\n4. Aguardar o contrato ser assinado pelo Coordenador de Estágio (Professor Orientador);<br />\n5. Apanhar o contrato assinado na Coordenação do Curso (sala 408).<br />\n<br />\nPara dúvidas sobre o estágio, entre em contato com o Coordenador de Estágio.<br />\n<br />\nMais informações sobre estágio em: http://www.ic.uff.br/index.php/pt/estagio-si"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1574806500482",
+      "conditions": "$curso:sistemas and $estagio:assinar",
+      "dialog_node": "response_7_1575268752752",
+      "previous_sibling": "slot_5_1575268785861"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O regulamento de estágio para o curso de Ciência da Computação e documentos relacionados podem ser encontrados no link a seguir: http://www.ic.uff.br/index.php/pt/curriculo-e-disciplinas/estagio"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1574806500482",
+      "conditions": "$curso:computacao",
+      "dialog_node": "response_1_1575483468965",
+      "previous_sibling": "response_10_1575483458255"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para que o discente de Sistemas de Informação esteja apto a realizar estágio, o mesmo deve, cumulativamente:<br />\n- Ter aprovação em Programação de Computadores I (ou disciplina equivalente);<br />\n- Ter aprovação em Programação de Computadores II para Sistemas de Informação (ou disciplina equivalente);<br />\n- Ter aprovação em Estrutura de Dados I (ou disciplina equivalente);<br />\n- Ter cumprido 600h (seiscentas horas) em disciplinas obrigatórias do currículo, excluindo as especificadas nos itens acima.<br />\n<br />\nAlém disso, a empresa deve estar conveniada com a UFF.<br />\nConsulte a Página da UFF para Estágio e veja as empresas conveniadas. Nela também é possível ver os procedimentos a serem feitos para as empresas celebrarem convênio para oferecimento de estágio.Mais informações sobre estágio em: http://www.ic.uff.br/index.php/pt/estagio-si"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1574806500482",
+      "conditions": "$curso:sistemas and $estagio:procedimentos",
+      "dialog_node": "response_6_1575269008240",
+      "previous_sibling": "response_7_1575268752752"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1574806500482",
+      "variable": "$curso",
+      "dialog_node": "slot_10_1575268753283"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Deseja informações sobre cancelamento, trancamento ou rematrícula?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_5_1575494183313",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1575494183327",
+      "previous_sibling": "handler_2_1575494183327"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1575494183313",
+      "context": {
+        "matricula": "@matricula"
+      },
+      "conditions": "@matricula",
+      "event_name": "input",
+      "dialog_node": "handler_2_1575494183327"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_5_1574806133852",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1574806133854",
+      "previous_sibling": "handler_7_1574806133854"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1574806133852",
+      "context": {
+        "atividade_complementar": "@atividade_complementar"
+      },
+      "conditions": "@atividade_complementar",
+      "event_name": "input",
+      "dialog_node": "handler_7_1574806133854"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para fazer o pedido da carteirinha de estudante e usufruir dos serviços nela inclusos (acesso à biblioteca, bandejão, etc), acesse o idUFF e faça sua solicitação. Basta fazer o upload da sua foto no IdUFF, acessar o sistema pelo endereço https://app.uff.br/saci e clicar em “ Solicitar”. Se não ocorrer algum problema nas etapas de fabricação, geralmente demora de 2 a 3 meses para que seja fabricada, e, dependendo de qual Campus o aluno estude, pode levar ainda mais 15 a 20 dias para chegar até o seu Campus. O aluno deverá acompanhar pelo site pois a cada etapa o site vai atualizando o status da etapa em que se encontra a fabricação.<br /><br />Onde a Carteirinha UFF será entregue?<br />Para alunos da unidade Niterói: Ponto de Atendimento localizado em uma sala entre os Restaurantes Universitários 1 e 2 do Gragoatá. Demais alunos devem consultar a coordenação de sua Unidade."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1575485455114",
+      "conditions": "$carteirinha:solicitar",
+      "dialog_node": "response_2_1575485669109",
+      "previous_sibling": "slot_3_1575488412003"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Carteirinha UFF é gratuita e está disponível para estudantes de graduação, professores, servidores e prestadores de serviço (mediante solicitação de supervisor UFF). Alunos de pós-graduação que tenham vínculo ativo com a universidade e o curso esteja com as informações atualizadas na base do SisPos, também poderão solicitar as carteirinhas. Estrangeiros também podem solicitar. A Carteirinha UFF poderá ser utilizada em terminais de recarga espalhados pela UFF, bibliotecas universitárias e Restaurantes Universitários."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1575485455114",
+      "conditions": "true",
+      "dialog_node": "response_10_1575487510387",
+      "previous_sibling": "response_6_1575485939864"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em caso de perda ou roubo, você deve cancelar a Carteirinha perdida/roubada e solicitar outra através do site https://app.uff.br/saci.<br />Para utilização no Restaurante Universitário, você poderá pedir uma Carteirinha temporária que pode ser utilizada em até uma refeição."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1575485455114",
+      "conditions": "$carteirinha:bloquear or $carteirinha:perda",
+      "dialog_node": "response_6_1575485939864",
+      "previous_sibling": "response_2_1575485669109"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1575485455114",
+      "variable": "$carteirinha",
+      "dialog_node": "slot_3_1575488412003"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1575500983498",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1575500983501",
+      "previous_sibling": "handler_4_1575500983501"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1575500983498",
+      "context": {
+        "inscricao": "@inscricao"
+      },
+      "conditions": "@inscricao",
+      "event_name": "input",
+      "dialog_node": "handler_4_1575500983501"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O procedimento para solicitar aproveitamento de disciplinas por equivalência ou correspondência deve ser realizado através de processo administrativo. Para isso, o aluno deve ir até o Protocolo Setorial da Praia Vermelha (1º andar do Instituto de Computação) e formar processo, anexando o Histórico Escolar  e as ementas das disciplinas cursadas.<br />Existem três formas de Aproveitamento: (1) Dispensa, para disciplinas cursadas em outras Universidades; (2) Correspondência, para disciplinas cursadas em outros cursos da UFF, sendo registrada nota e frequência no Histórico Escolar do aluno; e (3) Exame de Proficiência, que consiste na comprovação do conhecimento do conteúdo de uma disciplina por meio de avaliação específica aplicada pelo Departamento de Ensino à qual a disciplina é vinculada.<br /><br />O formulário para dispensa de disciplinas pode ser encontrado em: http://www.ic.uff.br/images/documentos/ciencia_da_computacao/sol_disp_disc.PDF"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1575498541668",
+      "conditions": "$curso:computacao",
+      "dialog_node": "response_8_1575499012517",
+      "previous_sibling": "response_6_1575499006459"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para disciplina cursada fora da UFF, em período anterior ao de ingresso na UFF, em Instituição de Ensino Superior nacional:<br />\n1. Entrar no SolicitaSI (http://www.leocruz.pro.br/solicitasi/) e preencher o formulário de dispensa de disciplina;\n2. Imprimir o formulário e levar na Coordenação juntamente com: Histórico Escolar; Programa das disciplinas, ambos autenticados pela instituição de origem.<br />\n<br />\nPara disciplina cursada fora da UFF, em período posterior ao de ingresso na UFF, em Instituição de Ensino Superior nacional:<br />\n1. Entrar no SolicitaSI (http://www.leocruz.pro.br/solicitasi/) e preencher o formulário de dispensa de disciplina;<br />\n2. Imprimir o formulário e levar na Coordenação juntamente com: Histórico Escolar; Programa das disciplinas, ambos autenticados pela instituição de origem.<br />\nRequisito suplementar: Ter sido cursada em Programa de Mobilidade ou como Disciplina Isolada, desde que autorizado previamente pelo Colegiado do Curso.<br />"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1575498541668",
+      "conditions": "$curso:sistemas and $dispensa:nacional",
+      "dialog_node": "response_7_1575498742670",
+      "previous_sibling": "response_7_1575498741310"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1575498541668",
+      "variable": "$dispensa",
+      "dialog_node": "slot_1_1575498749228",
+      "previous_sibling": "slot_7_1575498741735"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O exame de proficiência é a comprovação do conhecimento do conteúdo de uma disciplina efetuada por meio de avaliação específica aplicada ao discente através do Departamento de Ensino ou Coordenação de Curso a qual aquela disciplina se encontra vinculada.<br />\n<br />\nPara estar apto a solicitar exame de proficiência em alguma disciplina, o aluno deve:<br />\na) Não ter cursado a disciplina anteriormente;<br />\nb) Não ter sido reprovado previamente em Exame prestado para a mesma disciplina;<br />\nc) Não ter sido reprovado previamente em pelo menos 2 (dois) exames realizados para disciplinas distintas.<br />\n<br />\nApós aprovação no exame de proficiência, será registrado no Histórico Escolar a nota obtida no exame, frequência suficiente e a informação que a aprovação foi obtida por exame de proficiência.<br />\n<br />\nProcedimento para realização do exame de proficiência:<br />\n1. Preencher o Formulário 06 (disponível em: http://www.ic.uff.br/images/documentos/sistemas_de_informacao/arquivos/Formularios/Formulario_06_Exame_Proficiencia.doc) e entregar na Coordenação;<br />\n2. Aguardar contato da Coordenação ou Departamento informando o dia, local e horário da prova."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1575498541668",
+      "conditions": "$curso:sistemas and $dispensa:proficiencia",
+      "dialog_node": "response_6_1575499005126",
+      "previous_sibling": "response_3_1575499003788"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para disciplina cursada fora da UFF, em período anterior ao de ingresso na UFF, em Instituição de Ensino Superior estrangeira:<br />\n1. Entrar no SolicitaSI (http://www.leocruz.pro.br/solicitasi/) e preencher o formulário de dispensa de disciplina;<br />\n2. Imprimir o formulário e levar na Coordenação juntamente com: Histórico c) Escolar e Programa das disciplinas, ambos autenticados pela instituição de origem e pelo consulado brasileiro no país onde foram expedidos.<br />\nObs.: A critério do Colegiado de Curso poderá ser solicitada tradução simples ou juramentada dos documentos necessários para dispensa.<br />\n<br />\nPara disciplina cursada fora da UFF, em período posterior ao de ingresso na UFF, em Instituição de Ensino Superior estrangeira:<br />\n1. Entrar no SolicitaSI (http://www.leocruz.pro.br/solicitasi/) e preencher o formulário de dispensa de disciplina;<br />\n2. Imprimir o formulário e levar na Coordenação juntamente com: Histórico Escolar; Programa das disciplinas, ambos autenticados pela instituição de origem.<br />\n<br />\nProcedimento para solicitação de Dispensa em caso de Mobilidade:<br />\n1. Entrar no SolicitaSI (http://www.leocruz.pro.br/solicitasi/) e preencher o formulário de dispensa de disciplina;<br />\n2. Imprimir o formulário e levar na Coordenação juntamente com: Histórico Escolar; Programa das disciplinas, ambos autenticados pela instituição de origem;<br />\n3. Tradução simples do Histórico Escolar e Programa das disciplinas autenticados pela Diretoria de Relações Internacionais (DRI);<br />\n4. Documento da DRI comprovando participação no Programa.<br />"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1575498541668",
+      "conditions": "$curso:sistemas and $dispensa:estrangeira",
+      "dialog_node": "response_3_1575499003788",
+      "previous_sibling": "response_7_1575498742670"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O aproveitamento de estudos se refere a utilizar de disciplinas/atividades realizadas em outras IES ou em outras matrículas na UFF para equivaler a disciplinas/atividades do currículo que se encontra vinculado atualmente na UFF. Ainda há a possibilidade de realização de exame de proficiência quando o discente não posuir comprovação de conhecimento por meio de documentos formais.<br />\n<br />\nPara mais informações, acesse: http://www.ic.uff.br/index.php/pt/procedimentos-administrativos/dispensa-de-disciplina"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1575498541668",
+      "conditions": "$curso:sistemas",
+      "dialog_node": "response_6_1575499006459",
+      "previous_sibling": "response_6_1575499005126"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para disciplina cursada na UFF que não conste no histórico escolar da matrícula atual do aluno na UFF:<br />\n1. Entrar no SolicitaSI (http://www.leocruz.pro.br/solicitasi/) e preencher o formulário como dispensa de disciplina;<br />\n2. Imprimir o formulário e levar na Coordenação juntamente com Histórico Escolar.<br />\n<br />\nUma vez reconhecida a correspondência entre disciplinas cursadas na UFF, serão registradas no Histórico Escolar as notas e as frequências obtidas com aproveitamento na matrícula anterior.<br />\n<br />\nPara disciplina cursada na UFF que conste no histórico escolar da matrícula atual do aluno na UFF:<br />\n- Se a disciplina aparece alocada corretamente na Integralização Curricular do idUFF, nada precisa ser feito. Se a disciplina aparece com finalidade diferente da desejada, entrar em contato com a Coordenação e pedir equivalência personalizada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1575498541668",
+      "conditions": "$curso:sistemas and $dispensa:uff",
+      "dialog_node": "response_7_1575498741310",
+      "previous_sibling": "slot_1_1575498749228"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1575498541668",
+      "variable": "$curso",
+      "dialog_node": "slot_7_1575498741735"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Para qual curso deseja informações sobre dispensa/equivalência em disciplinas?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1575498741735",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1575498741751",
+      "previous_sibling": "handler_9_1575498741751"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_7_1575498741735",
+      "context": {
+        "curso": "@curso"
+      },
+      "conditions": "@curso",
+      "event_name": "input",
+      "dialog_node": "handler_9_1575498741751"
+    },
+    {
+      "type": "slot",
+      "parent": "Bem-vindo",
+      "variable": "$curso",
+      "dialog_node": "slot_2_1574798859793"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Algumas questões sobre as AC no curso de Sistemas de Informação:<br /><br />- Devem ser realizadas durante o período que o aluno está no Curso.<br />- Podem ser realizadas em qualquer momento da graduação sendo o indicado na grade curricular uma mera sugestão.<br />- Não precisam ser realizadas na UFF embora todas necessitem de comprovação legal de realização.<br />- Não entram no cálculo do CR e apenas é registrado no Histórico Escolar o seu cumprimento.<br />- Carga horária de estágio pode ser aceita como AC mas carga horário de trabalho não é aceita, mesmo que o trabalho seja na área de formação do discente.<br /><br />\nPara mais informações, acesse: http://www.ic.uff.br/index.php/pt/atividade-complementar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1574796074218",
+      "conditions": "$curso:sistemas",
+      "dialog_node": "response_9_1575483302102",
+      "previous_sibling": "response_9_1575268189602"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1574796074218",
+      "variable": "$atividade_complementar",
+      "dialog_node": "slot_5_1574806133852",
+      "previous_sibling": "slot_1_1574806098397"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As atividades aceitas como horas complementares para Sistemas de Informação estão definidas em: http://www.ic.uff.br/images/documentos/sistemas_de_informacao/arquivos/Legislacao/BS_Resolucao_CGI_002_2017__Regulamento_Atividades_Complementares__pag_062.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1574796074218",
+      "conditions": "$curso:sistemas and $atividade_complementar:tipos",
+      "dialog_node": "response_1_1574806323829",
+      "previous_sibling": "response_4_1574806318530"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para solicitar avaliação das atividades complementares realizadas, o discente já deve ter cursado atividades suficientes para completar as 240h de AC exigidas pelo currículo do curso nos termos da Resolução de Atividade Complementar.<br /><br />O procedimento para solicitar avaliação é:<br />1. Certificando-se que tem atividade para atingir a CH de 240h em AC<br />2. Entrar no Solicita SI (http://www.leocruz.pro.br/solicitasi/) e preencher os formulários de AC<br />3. Enviar e-mail para Coordenação bsi\\@ic.uff.br pedindo liberação para impressão das AC (informar a matrícula)<br />4. Imprimir o formulário e levar na Coordenação juntamente com os comprovantes da AC<br /><br />(os comprovantes não são devolvidos mas podem ser deixados como cópias desde que apresentado o original no momento da entrega)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1574796074218",
+      "conditions": "$curso:sistemas and $atividade_complementar:incluir",
+      "dialog_node": "response_6_1574806238405",
+      "previous_sibling": "response_5_1574806173654"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para editar uma solicitação de atividade complementar enviada, o discente deve seguir o procedimento:<br /> 1. Entrar no Solicita SI (http://www.leocruz.pro.br/solicitasi/) e acessar a área de AC no menu superior.<br /> 2. Buscar a atividade complementar registrada e clicar em \"Editar\".<br /> 3. Realizar as alterações desejadas e salvar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1574796074218",
+      "conditions": "$curso:sistemas and $atividade_complementar:editar",
+      "dialog_node": "response_6_1574806308869",
+      "previous_sibling": "response_6_1574806238405"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para que uma atividade possa ser considerada uma Atividade Complementar, o aluno interessado deverá realizar uma solicitação específica à Coordenação de Curso, através da SOLICITAÇÃO DE REGISTRO DE ATIVIDADE COMPLEMENTAR – SRAC (disponível no link: http://www.ic.uff.br/images/documentos/ciencia_da_computacao/sol_disp_disc.PDF), no mínimo 60 dias antes do fim do período letivo, determinado no calendário escolar, para análise da Comissão de Atividades Complementares. A Coordenação de Curso avisará ao aluno solicitante sobre o resultado da análise da Comissão de Atividades Complementares, registrando na cópia da SRAC a ciência do aluno.<br /><br />Mais informações podem ser encontradas em: http://www.ic.uff.br/index.php/pt/curriculo-e-disciplinas/atividades-complementares"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1574796074218",
+      "conditions": "$curso:computacao and $atividade_complementar:incluir",
+      "dialog_node": "response_8_1575268113278",
+      "previous_sibling": "response_1_1574806323829"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Atividades Complementares são componentes curriculares obrigatórios de todos os cursos de graduação da UFF, estando vinculadas às Coordenações de Cursos. Entendem-se por Atividades Complementares aquelas que estimulam a prática de estudos independentes e opcionais, permitindo a permanente e contextualizada atualização profissional, ou específica como complementação de estudos, inclusive as realizadas fora do ambiente escolar.<br /><br />Para efeito de integralização curricular do currículo 2009, o aluno terá que realizar, no mínimo, 68h de Atividades Complementares, ao longo do curso, segundo as normas relacionadas. Já para o currículo 2014 o aluno deverá integralizar 162h. Esta carga horária não poderá ser obtida através de uma única Atividade Complementar. A carga horária de Disciplina Eletiva cursada poderá ser utilizada para compor a carga horária de Atividades Complementares, desde que aceita pela Comissão de Atividades Complementares, não podendo ser superior a metade da carga horária total.<br /><br />Mais informações podem ser encontradas em: http://www.ic.uff.br/index.php/pt/curriculo-e-disciplinas/atividades-complementares"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1574796074218",
+      "conditions": "$curso:computacao and $atividade_complementar:tipos",
+      "dialog_node": "response_9_1575268189602",
+      "previous_sibling": "response_8_1575268113278"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1574796074218",
+      "variable": "$curso",
+      "dialog_node": "slot_1_1574806098397",
+      "previous_sibling": "response_10_1575483333227"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Atividades Complementares são componentes curriculares obrigatórios de todos os cursos de graduação da UFF, estando vinculadas às Coordenações de Cursos. Entendem-se por Atividades Complementares aquelas que estimulam a prática de estudos independentes e opcionais, permitindo a permanente e contextualizada atualização profissional, ou específica como complementação de estudos, inclusive as realizadas fora do ambiente escolar.<br /><br />Para mais informações e documentos sobre horas complementares para Ciência da Computação, acesse: http://www.ic.uff.br/index.php/pt/curriculo-e-disciplinas/atividades-complementares"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1574796074218",
+      "conditions": "$curso:computacao",
+      "dialog_node": "response_10_1575483333227",
+      "previous_sibling": "response_9_1575483302102"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para deletar uma solicitação de atividade complementar enviada, o discente deve seguir o procedimento:<br />\n1. Entrar no Solicita SI (http://www.leocruz.pro.br/solicitasi/) e acessar a área de AC no menu superior.<br />\n2. Buscar a atividade complementar registrada e, certificando-se de que ainda não foi aprovada, clicar em \"Excluir\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1574796074218",
+      "conditions": "$curso:sistemas and $atividade_complementar:deletar",
+      "dialog_node": "response_4_1574806318530",
+      "previous_sibling": "response_6_1574806308869"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entende-se como Atividade Complementar toda a atividade que contribua efetivamente para a formação técnica e o aprimoramento pessoal do graduando, abrangendo atividades vinculadas ao ensino, pesquisa, extensão e gestão que não estejam compreendidas nas atividades pedagógicas previstas no desenvolvimento regular das disciplinas dos currículos plenos do curso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1574796074218",
+      "conditions": "$curso:sistemas and $atividade_complementar:definição",
+      "dialog_node": "response_5_1574806173654"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Trancamento de Matrícula pode ocorrer:<br />\n<br />\na) Por solicitação de discente;<br />\nÉ aquele realizado por ato explícito de sua vontade, requerido na Coordenação do Curso por meio de documento assinado, em época especificada no Calendário Escolar disponível no site da PROGRAD.<br />\n<br />\nb) De forma automática;<br />\nOcorre em duas situações:<br />\n1. Realizado pelo sistema acadêmico quando o discente não efetiva sua inscrição em disciplinas, ou seja, não realiza inscrição online e também não faz a inscrição presencial.<br />\n2. Quando o discente se inscreve em disciplinas cuja soma das cargas horárias é inferior ao mínimo previsto pelo Art. 54. No curso de Sistemas de Informação a carga horária mínima por semestre é 240h.<br />\nEm ambos os casos deve-se ficar atento em não extrapolar o limite de trancamentos estipulado pelo Regulamento, o que resulta em Jubilamento por abandono.<br />\n<br />\nc) Em caráter especial.<br />\nO trancamento em caráter especial pode ocorrer em casos excepcionais, concedido a critério do Colegiado do Curso, considerando a motivação do pedido feito pelo discente ou por seu representante.<br />\n<br />\nO discente pode permanecer com sua matrícula trancada por um período máximo de 4 (quatro) períodos letivos, consecutivos ou não. O trancamento de matrícula não é permitido ao ingressante, independente da modalidade de ingresso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1575493914515",
+      "conditions": "$curso:sistemas and $matricula:trancar",
+      "dialog_node": "response_4_1575494182782",
+      "previous_sibling": "slot_5_1575494183313"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Canelamento de Matrícula ou Jubilação é o ato pelo qual o aluno é desvinculado da Universidade. Ocorre nos seguintes casos:<br />\n-Não integralização da carga horária necessária à conclusão do curso dentro do prazo máximo de permanência fixado no currículo. No caso de Ciência da Computação, 12 períodos. <br />\n-Abandono de curso: configura-se pela não inscrição do aluno em disciplinas/atividades, depois de esgotados os quatro períodos de trancamento permitidos pelo Regulamento dos Cursos de Graduação.<br />\n-Não inscrição em disciplinas/atividades no primeiro período letivo, imediatamente subseqüente ao seu ingresso na Universidade.<br />\n-Reprovação em todas as disciplinas nas quais o aluno se inscreveu no período imediatamente subseqüente ao seu ingresso, exceto se tiver obtido nota final igual ou superior a 4,0 em pelo menos uma disciplina.<br />\n-Solicitação oficial, por iniciativa do próprio aluno, diretamente na Pró-Reitoria de Graduação (PROGRAD).<br />\n-Insuficiência de aproveitamento escolar: acontece quando o aluno não concluir, no mínimo, 50% da carga horária curricuolar no tempo médio previsto para conclusão do curso. No caso de Ciência da Computação, 8 períodos. <br />\n-Motivos disciplinares, nos casos previstos pelo Estatuto e Regimento Geral da Universidade.<br />\n<br />\nCancelar a matrícula significa romper definitivamente os laços com a Universidade, não podendo mais participar de suas atividades. Para cancelar a matrícula,  basta comparecer pessoalmente à Pró-Reitoria de Graduação (PROGARD), Rua Miguel de Frias, 9, 2º andar, Icaraí, Niterói, RJ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1575493914515",
+      "conditions": "$curso:computacao and $matricula:cancelar",
+      "dialog_node": "response_4_1575494524688",
+      "previous_sibling": "response_8_1575494522388"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1575493914515",
+      "variable": "$curso",
+      "dialog_node": "slot_10_1575494446273",
+      "previous_sibling": "response_7_1575494526082"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Rematrícula é a concessão de nova matrícula ao discente cujo vínculo com a UFF foi cancelado há, no máximo, 3 anos.<br />\n<br />\nNão é possível pedir rematrícula o aluno que:<br />\n\n- Teve a matrícula cancelada no período de ingresso por insuficiência de aproveitamento;<br />\n- Teve a matrícula cancelada por motivo disciplinar;<br />\n- Teve a matrícula cancelada por solicitação oficial.<br />\n<br />\nProcedimento para solicitar Rematícula<br />\n\n1. Verifique no Calendário Escolar o período para solicitação de Rematrícula.<br />\n\n2. Entrar no SolicitaSI (http://www.leocruz.pro.br/solicitasi/), preencher, imprimir e assinar o formulário de pedido ao Colegiado.<br />\n\n3. Levar no protocolo (térreo do IC), no período determinado no Calendário Escolar, o formulário acima juntamente com RG e CPF (não substituíveis por CNH).<br />\n<br />\nApós os procedimentos acima, o processo será aberto e encaminhado para o Colegiado do Curso que avaliará o pedido de rematrícula. O requerente será informado pela Prograd do resultado de seu pedido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1575493914515",
+      "conditions": "$curso:sistemas and $matricula:rematricula",
+      "dialog_node": "response_1_1575494438035",
+      "previous_sibling": "response_8_1575494430581"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Cancelamento de Matrícula por Solicitação Oficial é de iniciativa do discente e o pedido deve ser protocolizado na PROGRAD (Campus da Reitoria, Rua Miguel de Frias 9, Icaraí, 2º andar, das 10h às 16h)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1575493914515",
+      "conditions": "$curso:sistemas and $matricula:cancelar",
+      "dialog_node": "response_8_1575494430581",
+      "previous_sibling": "response_4_1575494182782"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Trancar a matrícula significa ficar temporariamente afastado da Universidade, não podendo participar de suas atividades. Durante sua vida na UFF você poderá trancar a matrícula por, no máximo, 4 semestres (2 anos), consecutivos ou não. Para trancar  matrícula, basta comparecer à Coordenação pessoalmente e preencher o formulário de solicitação (disponível em: http://www.ic.uff.br/images/documentos/ciencia_da_computacao/8.PDF)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1575493914515",
+      "conditions": "$curso:computacao and $matricula:trancar",
+      "dialog_node": "response_8_1575494522388",
+      "previous_sibling": "response_1_1575494438035"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A solicitação de Rematrícula é facultada ao ex-discente cuja matrícula foi cancelada, e assim registrada no sistema acadêmico, devendo ser apresentada junto à PROGRAD/DAE, que protocolizará e efetuará a análise técnica para a verificação da viabilidade de retorno. Em caso afirmativo, será feito o encaminhamento ao Colegiado do Curso para análise e parecer sobre o pedido. <br /><br />\nO benefício da rematrícula só poderá ser concedido uma única vez e a nova matrícula só será efetivada no período letivo imediatamente posterior à data de concessão deste benefício.<br /><br />\nPara mais informações, acesse: http://www.ic.uff.br/images/ciencia_da_computacao/documentos/Regulamento_dos_Cursos_de__Gradua%C3%A7%C3%A3o_2015_UFF.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1575493914515",
+      "conditions": "$curso:computacao and $matricula:rematricula",
+      "dialog_node": "response_7_1575494526082",
+      "previous_sibling": "response_4_1575494524688"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1575493914515",
+      "variable": "$matricula",
+      "dialog_node": "slot_5_1575494183313"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1575492790824",
+      "variable": "$cederj",
+      "dialog_node": "slot_5_1575493273754",
+      "previous_sibling": "response_8_1575493321309"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- O CEDERJ oferece disciplinas semipresenciais (estudo à distância e provas presenciais). As provas  presenciais acontecem nos finais de semana e o sistema de avaliação obedece o Regulamento do CEDERJ.<br />\n- As provas serão no polo que escolher estar vinculado. As disciplinas estão associadas aos cursos e aos polos, portanto, não é todo polo que oferecerá qualquer disciplina do CEDERJ. Na plataforma do CEDERJ você terá acesso ao material da disciplina que cursará. <br />\n- Há disciplinas obrigatórias e optativas/AC do currículo do SI. Para mais detalhes, consulte o arquivo Tabela de Disciplinas, Equivalências, Cursos e Polos.<br />\n- O limite é de 3 disciplinas por semestre. No total, cada aluno pode cursar 20% (600h) do currículo em disciplinas EaD (a distância/semipresencial).<br />\n- A nota e frequência obtida na disciplina do CEDERJ será computada automaticamente no histórico da UFF na disciplina equivalente do currículo de SI.<br />\n<br />\nPara mais informações e consulta de documentos, acesse: http://www.ic.uff.br/index.php/pt/procedimentos-administrativos/mobilidade-academica-out"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1575492790824",
+      "conditions": "true",
+      "dialog_node": "response_8_1575493321309",
+      "previous_sibling": "response_10_1575493291391"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os pré-requisitos do CEDERJ são os mesmos do currículo de SI. O aluno precisa ter o pré-requisito até o fim do período de cancelamento do CEDERJ (vide cronograma). Se não, deve cancelar a disciplina.<br /><br />Por questões internas do CEDERJ (não existência de turma ou vaga, conflito no dia de prova, etc) ou falta de pré-requisito, pode ser que alguma solicitação de inscrição não seja atendida. Antes do inicio das aulas os alunos que solicitaram inscrição serão notificados sobre o pedido.<br /><br />Caso deseje cancelar a inscrição, o mesmo deve ser realizado no formulário de cancelamento dentro do cronograma do CEDERJ.<br /><br />O formulário de inscrição, de cancelamento e cronograma encontram-se na página: http://www.ic.uff.br/index.php/pt/procedimentos-administrativos/mobilidade-academica-out"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1575492790824",
+      "conditions": "$cederj:inscrever or $cederj:cancelar",
+      "dialog_node": "response_10_1575493291391"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para emitir declaração de Pontuação no Vestibular, o aluno deve seguir o procedimento:<br />1. Acessar o IdUFF: https://app.uff.br/iduff/login.uff<br />2. No menu lateral esquerdo, ir em \"Gerar Declarações\" e escolher \"Pontuação no Vestibular\".<br /><br />\n(a declaração será gerada instantaneamente e o download será iniciado automaticamente)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1575483664544",
+      "conditions": "$declaracao_tipo:pontuacao",
+      "dialog_node": "response_5_1575488880221",
+      "previous_sibling": "response_4_1575488347530"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para emitir declaração de Ação Afirmativa, o aluno deve seguir o procedimento:<br />1. Acessar o IdUFF: https://app.uff.br/iduff/login.uff<br />2. No menu lateral esquerdo, ir em \"Gerar Declarações\" e escolher \"Ação Afirmativa\".<br /><br />\n(a declaração será gerada instantaneamente e o download será iniciado automaticamente)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1575483664544",
+      "conditions": "$declaracao_tipo:cota",
+      "dialog_node": "response_4_1575488347530",
+      "previous_sibling": "response_10_1575484119262"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1575483664544",
+      "variable": "$declaracao_tipo",
+      "dialog_node": "slot_2_1575488255525",
+      "previous_sibling": "response_2_1575488319296"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para emitir Histórico Escolar, o aluno deve seguir o procedimento:<br />1. Acessar o IdUFF: https://app.uff.br/iduff/login.uff<br />2. No menu lateral esquerdo, ir em \"Histórico\" e escolher o tipo de histórico que deseja gerar (com ou sem plano de estudos anexado).<br /><br />\n(a documento será gerado instantaneamente e o download será iniciado automaticamente)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1575483664544",
+      "conditions": "$declaracao_tipo:historico",
+      "dialog_node": "response_2_1575488319296",
+      "previous_sibling": "response_5_1575488880221"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para emitir declaração de Regularidade de Matrícula, o aluno deve seguir o procedimento:<br />1. Acessar o IdUFF: https://app.uff.br/iduff/login.uff<br />2. No menu lateral esquerdo, ir em \"Gerar Declarações\" e escolher \"Regularidade de Matrícula\".<br /><br />(a declaração será gerada instantaneamente e o download será iniciado automaticamente)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1575483664544",
+      "conditions": "$declaracao_tipo:matricula",
+      "dialog_node": "response_10_1575484119262"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1575493273754",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1575493273757",
+      "previous_sibling": "handler_10_1575493273757"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1575493273754",
+      "context": {
+        "cederj": "@cederj"
+      },
+      "conditions": "@cederj",
+      "event_name": "input",
+      "dialog_node": "handler_10_1575493273757"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Deseja informações sobre troca de turma, inclusão, cancelamento ou dispensa de disciplinas?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1575497616410",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1575497616414",
+      "previous_sibling": "handler_4_1575497616414"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1575497616410",
+      "context": {
+        "ajustes": "@ajustes"
+      },
+      "conditions": "@ajustes",
+      "event_name": "input",
+      "dialog_node": "handler_4_1575497616414"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entende-se por período de ajuste o espaço de tempo determinado no Calendário Escolar e Administrativo para que sejam processadas pequenas alterações nos Planos de Estudos dos alunos inscritos em um semestre letivo.\n<br />\nEsse período pode ser usado para inclusão de Planos de Estudos dos alunos na qual não conseguiram se inscrever nas inscrições anteriores (online e presencial).\n<br />\nNo período de ajuste é possível fazer troca de turmas, inclusão e cancelamento de disciplinas, mas cabe lembrar que o período de ajuste tem a função de resolver pequenos problemas no Plano de Estudo, não sendo permitido a reformulação total do plano do aluno."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1575495745742",
+      "conditions": "$curso:computacao",
+      "dialog_node": "response_5_1575497689807",
+      "previous_sibling": "response_6_1575497687714"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A inclusão de disciplinas no plano de estudos deve ser realizada através do preenchimento de formulário próprio, disponível em: http://www.ic.uff.br/index.php/pt/ajuste-em-disciplinas/inclusao-e-troca-de-turma"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1575495745742",
+      "conditions": "$curso:computacao and $ajustes:incluir",
+      "dialog_node": "response_7_1575497685839",
+      "previous_sibling": "response_6_1575497684904"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Cancelamento de Disciplinas pode ocorrer por duas formas:<br />\n1. Solicitação do discente: é decorrente de um ato explícito de sua vontade, e é requerido por meio de documento assinado ou através do sistema acadêmico.<br />\n2. Ato administrativo: é realizado pela Coordenação de Curso para reparar questões administrativas e/ou decorrentes de erros na inscrição realizada pelo discente.<br />\n<br />\nO cancelamento de uma mesma disciplina por solicitação do discente só será permitido por, no máximo, 2 (duas) vezes, consecutivas ou não.\n<br />\nO discente que deixar de cursar uma disciplina, sem efetivar o seu cancelamento, terá mantida sua inscrição nesta disciplina, com os registros das situações daí recorrentes.\n<br />\nInclusão e Cancelamento de Disciplinas são tratados como eventos independentes. Sendo assim, não é possível especificar condição para cancelamento na solicitação de cancelamento.\n<br />\nNão será permitido ao discente o cancelamento de disciplinas em desacordo com o estabelecido no Art. 56 do Regulamento dos Cursos de Graduação que, no âmbito do curso de Sistemas de Informação, foi regulamentado pela Resolução CGI 02/2014.<br />\n<br />\nNão é possível o cancelamento de TODAS as disciplinas no plano de estudos. A ação correta para o caso é pedir TRANCAMENTO DE MATRÍCULA. O discente ingressante não pode trancar matrícula no semestre de seu  ingresso, conforme estabelece no Regulamento dos Cursos de Graduação.<br />\n<br />\nProcedimento para solicitar alteração no Plano de Estudos:<br />\n1. Entrar no SolicitaSI (http://www.leocruz.pro.br/solicitasi/) e preencher o formulário na guia AJUSTE;<br />\n2. Ficar atento a decisão da solicitação que é enviada por e-mail."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1575495745742",
+      "conditions": "$curso:sistemas and $ajustes:cancelar",
+      "dialog_node": "response_5_1575497681401",
+      "previous_sibling": "response_10_1575497175733"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Durante período de ajuste pode ser efetuada inclusão de disciplina desde que:<br />\n- A carga horária no plano de estudos esteja de acordo com o estabelecido pela Resolução CGI 02/2014.<br />\n- O discente tenha cumprido o pré-requisito da disciplina, se houver.<br />\n<br />\nEm todos os casos, a mera solicitação de inclusão de uma disciplina não garante vaga nela, estando o deferimento do pedido sujeito a existência de vaga.<br />\n<br />\nProcedimento para solicitar alteração no Plano de Estudos:<br />\n1. Entrar no SolicitaSI (http://www.leocruz.pro.br/solicitasi/) e preencher o formulário na guia AJUSTE;<br />\n2. Ficar atento a decisão da solicitação que é enviada por e-mail."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1575495745742",
+      "conditions": "$curso:sistemas and $ajustes:incluir",
+      "dialog_node": "response_10_1575497175733",
+      "previous_sibling": "slot_9_1575497616410"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entende-se por Período de Ajuste o espaço de tempo estabelecido no Calendário Escolar/Administrativo para que sejam processadas alterações nos planos de estudos, bem como para solucionar eventuais problemas ocorridos na inscrição on line.<br />\nO período para solicitar alteração compreende as 2 (duas) semanas iniciais do período letivo, no qual é facultado ao discente requerer junto à Coordenação de Curso quaisquer alterações no seu plano de estudos.<br />\nO Ajuste occore em três situações: Inclusão de Disciplina, Cancelamento de Disciplina e Troca de Turma."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1575495745742",
+      "conditions": "$curso:sistemas",
+      "dialog_node": "response_6_1575497684904",
+      "previous_sibling": "response_7_1575497682810"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A troca de turma em disciplinas deve ser realizada através do preenchimento de formulário próprio, disponível em: http://www.ic.uff.br/index.php/pt/ajuste-em-disciplinas/inclusao-e-troca-de-turma"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1575495745742",
+      "conditions": "$curso:computacao and $ajustes:turma",
+      "dialog_node": "response_6_1575497687714",
+      "previous_sibling": "response_3_1575497686840"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1575495745742",
+      "variable": "$ajustes",
+      "dialog_node": "slot_9_1575497616410",
+      "previous_sibling": "slot_8_1575497176156"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O cancelamento de disciplinas no plano de estudos deve ser realizado através do preenchimento de formulário próprio, disponível em: http://www.ic.uff.br/index.php/pt/ajuste-em-disciplinas/cancelamento"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1575495745742",
+      "conditions": "$curso:computacao and $ajustes:cancelar",
+      "dialog_node": "response_3_1575497686840",
+      "previous_sibling": "response_7_1575497685839"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O discente pode solicitar troca entre turmas de mesma disciplina DESDE QUE AS DISCIPLINAS POSSUAM O MESMO CÓDIGO. A solicitação pode ser feita para outra de mesmo horário ou de horário diferente.<br />\n<br />\nEm todos os casos, a mera solicitação de troca de turma não garante vaga nela, estando o deferimento do pedido sujeito a existência de vaga.<br />\n<br />\nProcedimento para solicitar alteração no Plano de Estudos:<br />\n1. Entrar no SolicitaSI (http://www.leocruz.pro.br/solicitasi/) e preencher o formulário na guia AJUSTE;<br />\n2. Ficar atento a decisão da solicitação que é enviada por e-mail."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1575495745742",
+      "conditions": "$curso:sistemas and $ajustes:turma",
+      "dialog_node": "response_7_1575497682810",
+      "previous_sibling": "response_5_1575497681401"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1575495745742",
+      "variable": "$curso",
+      "dialog_node": "slot_8_1575497176156"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Para qual curso deseja informações sobre Atividade Complementar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1574806098397",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1574806098400",
+      "previous_sibling": "handler_4_1574806098400"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1574806098397",
+      "context": {
+        "curso": "@curso"
+      },
+      "conditions": "@curso",
+      "event_name": "input",
+      "dialog_node": "handler_4_1574806098400"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_5_1575268785861",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1575268785866",
+      "previous_sibling": "handler_1_1575268785866"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1575268785861",
+      "context": {
+        "estagio": "@estagio"
+      },
+      "conditions": "@estagio",
+      "event_name": "input",
+      "dialog_node": "handler_1_1575268785866"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Antes de poder ajudá-lo, preciso saber sobre qual curso deseja informações?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1574798859793",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1574798859807",
+      "previous_sibling": "handler_8_1574798859807"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1574798859793",
+      "context": {
+        "curso": "@curso"
+      },
+      "conditions": "@curso",
+      "event_name": "input",
+      "dialog_node": "handler_8_1574798859807"
+    },
+    {
+      "type": "standard",
+      "title": "Listar tópicos de ajuda",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para facilitar isso pra você, posso te passar informações sobre:\n\n- Atividades Complementares\n- Estágio\n- TCC/Projeto de Aplicação\n- Ajustes no Plano de Estudos\n- Declarações\n- Carteirinha da UFF\n- Histórico Escolar e Notas\n- ENADE\n- CEDERJ / Disciplinas online\n- Matrícula\n- Inscrições (online / presencial)\n- Dispensa de Disciplinas"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1572303663511",
+      "conditions": "#pedir_ajuda",
+      "dialog_node": "node_3_1574799484188",
+      "previous_sibling": "node_2_1572303686655"
+    },
+    {
+      "type": "standard",
+      "title": "Pedir ajuda humana",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você pode entrar em contato com um agente humano através da coordenação de Sistemas de Informação (e-mail: bsi\\@ic.uff.br) ou coordenação de Ciência da Computação (os contatos estão aqui: http://www.ic.uff.br/index.php/pt/coordenacao-equipe)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1572303663511",
+      "conditions": "#ajuda_humana",
+      "dialog_node": "node_3_1575492306699",
+      "previous_sibling": "node_3_1574799484188"
+    },
+    {
+      "type": "standard",
+      "title": "Pedir contexto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Miau! Meu nome é CatBot e eu sou um robô gato. Estou aqui para te ajudar com dúvidas relacionadas ao Instituto de Computação. Falo português, robonês e gatinhês haha Você pode me perguntar coisas relacionadas ao Instituto ou algumas dúvidas genéricas sobre a UFF. Para saber melhor quais tópicos eu posso cobrir, digite AJUDA."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1572303663511",
+      "conditions": "#pedir_contexto",
+      "dialog_node": "node_2_1572303686655"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Deseja solicitar dispensa de disciplina cursada na UFF, em outra universidade nacional, outra universidade estrangeira, ou informações sobre exame de proficiência?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1575498749228",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1575498749232",
+      "previous_sibling": "handler_5_1575498749232"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1575498749228",
+      "context": {
+        "dispensa": "@dispensa"
+      },
+      "conditions": "@dispensa",
+      "event_name": "input",
+      "dialog_node": "handler_5_1575498749232"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Para qual curso deseja informações sobre Ajustes no Plano de Estudos?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1575497176156",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1575497176169",
+      "previous_sibling": "handler_6_1575497176169"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_8_1575497176156",
+      "context": {
+        "curso": "@curso"
+      },
+      "conditions": "@curso",
+      "event_name": "input",
+      "dialog_node": "handler_6_1575497176169"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Para qual curso deseja informações sobre sua matrícula?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1575494446273",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1575494446276",
+      "previous_sibling": "handler_5_1575494446276"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1575494446273",
+      "context": {
+        "curso": "@curso"
+      },
+      "conditions": "@curso",
+      "event_name": "input",
+      "dialog_node": "handler_5_1575494446276"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Passos a serem seguidos em Projeto Final II:<br />\n<br />\nAvaliação - Projeto Final II:<br />\n1. Aluno e orientador entram em acordo quanto aos nomes que comporão a Banca Examinadora, assim como a data da apresentação.<br />\n2. Departamento de Ciência da Computação envia e-mail à Coordenação com data e hora da apresentação.<br />\n3. Coordenação encaminha este e-mail para a lista de e-mail da graduação.\n4. Aluno apresenta a monografia.<br />\n5. Banca Examinadora avalia e orientador preenche ATA DE APRESENTAÇÃO DETRABALHO DE CONCLUSÃO DE CURSO.<br />\n6. Orientador entrega ATA DE APRESENTAÇÃO DE TRABALHO DE CONCLUSÃO DE CURSO devidamente preenchida ao Departamento de Ciência da Computação.<br />\n7. Revisão: aluno faz as alterações recomendadas pela Banca Examinadora.<br />\n8. Revisão do Orientador: orientador revisa e aprova a versão final da monografia, assinando o FORMULÁRIO DE APROVAÇÃO DA VERSÃO FINAL.<br />\n9. Aluno preenche Formulário Digital de Entrega de Versão Final do TCC, disponível no site do IC (https://goo.gl/Z75rRD).<br />\n10. Aluno entrega à Coordenação CD/pendrive com versão final acompanhado de FORMULÁRIO DE APROVAÇÃO DA VERSÃO FINAL devidamente assinado pelo orientador.<br />\n11. Coordenação envia memorando ao Departamento de Ciência da Computação encaminhando FORMULÁRIO DE APROVAÇÃO DA VERSÃO FINAL.<br />\n12. De posse da ATA DE APRESENTAÇÃO DE TRABALHO DE CONCLUSÃO DE\nCURSO, entregue pelo orientador, e do FORMULÁRIO DE APROVAÇÃO DA\nVERSÃO FINAL, encaminhado pela Coordenação de Curso, o Departamento lança nota e frequência do aluno.<br />\n<br />\nSubmissão ao Repositório Institucional:<br />\n1. Coordenação submete os trabalhos aprovados ao Repositório Institucional.<br />\n2. Aluno pode comparecer à Coordenação para devolução do CD/pendrive com versão final.<br />\n3. Caso o aluno não compareça para devolução do CD/pendrive dentro do prazo de um ano, a Coordenação providenciará sua eliminação.<br />\n<br />\nPara mais informações e documentos, acesse: http://www.ic.uff.br/index.php/pt/curriculo-e-disciplinas/projeto-final/regras"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1574806506987",
+      "conditions": "$curso:computacao and $projeto_final:apresentar",
+      "dialog_node": "response_9_1575475478095",
+      "previous_sibling": "response_6_1575436232056"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Passos a serem seguidos em Projeto Final I:<br />\n<br />\nInscrição:<br />\n1. Aluno faz inscrição online na disciplina Projeto Final I ou Projeto Final II dentro do prazo estipulado pelo Calendário Escolar.<br />\n2. Escolha de Tema e Orientador: aluno entrega ao Departamento de Ciência da Computação FORMULÁRIO DE INSCRIÇÃO EM PROJETO FINAL.<br />\n<br />\n<br />\nDesenvolvimento do Projeto:<br />\n1. Orientador auxilia o aluno no desenvolvimento do projeto durante o semestre letivo.<br />\n<br />\nAvaliação - Projeto Final I:<br />\n1. Aluno apresenta ao orientador Relatório Final.<br />\n2. Aluno assiste a pelo menos duas apresentações de Projeto Final II.<br />\n3. Orientador avalia e comunica nota e frequência ao Departamento de Ciência da Computação para registro no Sistema de Administração Acadêmica.<br />\n<br />\nPara mais informações e documentos, acesse: http://www.ic.uff.br/index.php/pt/curriculo-e-disciplinas/projeto-final/regras"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1574806506987",
+      "conditions": "$curso:computacao and $projeto_final:inscrever",
+      "dialog_node": "response_6_1575436232056",
+      "previous_sibling": "response_6_1575267787474"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Passos a serem seguidos no TCC II:<br />\n1. Preencher Formulário 01 de Proposta do Projeto de Aplicação - TCC<br />\n2. Entregar o Formulário 01 assinado pelo orientador na Coordenação;<br />\n3. Entrar no SolicitaSI (http://www.leocruz.pro.br/solicitasi/) e preencher os metadados do TCC na aba Projeto de Aplicação II (Não é necessário nenhuma impressão. Caso não queira que a apresentação seja divulgada, este passo pode ser feito após a apresentação do Projeto de Aplicação.);<br />\n4. Informar por e-mail à secretária da Coordenação de Sistemas de Informação (bsi\\@ic.uff.br) a hora da defesa para reserva de sala e divulgação;<br />\n5. Levar para defesa o Formulário 03  pré-preenchido e após a defesa do levá-lo na Coordenação devidamente assinado pela banca;<br />\n6. Após realizar todas as alterações exigidas pela banca, gerar a Ficha Catalográfica pelo sistema da Biblioteca (vide inicio da página). Este item não se aplica a TCC do tipo artigo científico. Se o TCC for em dupla a ficha catalográfica deve ser pedida na Biblioteca.<br />\n7. Inserir a ficha catalográfica na monografia e gerar a mesma em formato PDF. Este item não se aplica a TCC do tipo artigo científico.<br />\n8. Entregar o Formulário 04 na Coordenação com aceite do orientador da versão final do TCC;<br />\n9. Enviar para a secretaria da Coordenação de Sistemas de Informação (bsi\\@ic.uff.br) o TCC em formato PDF.<br />\n<br />\nOBS. 1: A nota do TCC II só será lançada após a entrega do PDF com a ficha catalográfica (quando houver).OBS. 2: A ficha catalográfica (quando houver) só é  gerada para os alunos sem dívida junto ao sistema de bibliotecas<br />\n<br />\nO cronograma para Projeto de Aplicação relativo ao período corrente, bem como documentos e orientações normativas, podem ser encontrados em: http://www.ic.uff.br/index.php/pt/projeto-de-aplicacao"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1574806506987",
+      "conditions": "$curso:sistemas and $projeto_final:apresentar",
+      "dialog_node": "response_6_1575267787474",
+      "previous_sibling": "response_10_1575267590353"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1574806506987",
+      "variable": "$curso",
+      "dialog_node": "slot_4_1575267261998",
+      "previous_sibling": "response_9_1575475478095"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1574806506987",
+      "variable": "$projeto_final",
+      "dialog_node": "slot_2_1575267418118",
+      "previous_sibling": "slot_4_1575267261998"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Passos a serem seguidos no TCC I:<br />\n1. Defina um trabalho de seu interesse;<br />\n2. Procure um professor que possa orientá-lo na realização do trabalho;(consulte o Art 11 ao 14 do Regulamento para Elaboração do TCC)<br />\n3. Preencha o Formulário 01 de Proposta do Projeto de Aplicação - TCC<br />\n4. Entregar o Formulário 01 assinado pelo orientador na Coordenação;<br />\n5. No final do semestre, após finalizar as tarefas definidas pelo orientador, este irá para lançar sua nota no idUFF. Não é necessária a entrega de mais nenhum documento na Coordenação.<br />\n<br />\nO cronograma para Projeto de Aplicação relativo ao período corrente, bem como documentos necessários, podem ser encontrados em: http://www.ic.uff.br/index.php/pt/projeto-de-aplicacao"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1574806506987",
+      "conditions": "$curso:sistemas and $projeto_final:inscrever",
+      "dialog_node": "response_10_1575267590353"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Para qual curso deseja informações sobre o Projeto Final?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1575267261998",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1575267262033",
+      "previous_sibling": "handler_1_1575267262033"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1575267261998",
+      "context": {
+        "curso": "@curso"
+      },
+      "conditions": "@curso",
+      "event_name": "input",
+      "dialog_node": "handler_1_1575267262033"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "As declarações de Regularidade de Matrícula, Histórico Escolar, Pontuação no Vestibular e Ação Afirmativa podem ser retirados diretamente no idUFF (https://app.uff.br/iduff/login.uff). Estes documentos já possuem autenticação e não carecem de carimbo e/ou assinatura para terem validade.<br /> <br /> Para declarações personalizadas de período, previsão de formatura, turno, etc, basta entrar em contato com a Coordenação do respectivo curso."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1575488255525",
+      "conditions": "true",
+      "event_name": "nomatch",
+      "dialog_node": "handler_4_1575489353036",
+      "previous_sibling": "handler_10_1575488255528"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Que tipo de declaração deseja?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1575488255525",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1575488255528",
+      "previous_sibling": "handler_9_1575488255528"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1575488255525",
+      "context": {
+        "declaracao_tipo": "@declaracao_tipo"
+      },
+      "conditions": "@declaracao_tipo",
+      "event_name": "input",
+      "dialog_node": "handler_9_1575488255528"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Inscrição Online é o procedimento realizado pelo aluno por meio da internet (no IDUFF), em período estabelecido no Calendário Escolar, que será, quando necessário, completada pela inscrição presencial. <br /> <br /> Caso não tenha feito a Inscrição Online por qualquer motivo que seja, antes do inicio de cada período letivo, em época prevista no Calendário Escolar, o aluno comparece à coordenação, em escala por esta definida, a fim de proceder á inscrição nas disciplinas e atividades que pretende cursar naquele semestre.<br /> <br /> Mas fique atento! A Inscrição On Line tem preferência sobre a Inscrição Presencial na concorrência por vagas nas turmas.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1575500820973",
+      "conditions": "true",
+      "dialog_node": "response_4_1575501034021",
+      "previous_sibling": "response_7_1575501016419"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os discentes que comparecem para realizar Inscrição Presencial estarão sujeitos as vagas remanescentes da Inscrição Online, conforme ordem de processamento de inscrição estabelecida pelo Regulamento dos Cursos de Graduação.<br /> <br /> Procedimento para inscrição presencial:<br /> 1. O discente pode comparecer na coordenação, em época prevista no calendário escolar, munido de documento de identificação.<br /> <br /> Obs.: Na impossibilidade do aluno comparecer para realização da Inscrição Presencial é aceita procuração simples designando familiar a realizar o procedmento de inscrição."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1575500820973",
+      "conditions": "$inscricao:presencial",
+      "dialog_node": "response_7_1575501016419",
+      "previous_sibling": "response_10_1575500976006"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Inscrição online é realizada pelo discente, através da internet, em período estabelecido no calendário escolar, sendo condicionada à atualização cadastral obrigatória.<br /><br />A prioridade no preenchimento das vagas para o Curso de Sistemas de Informação obedecerá às prioridades na ordem a seguir:<br />1. Maior carga horária acumulada, excluídas as disciplinas de caráter eletivo e atividades complementares;<br />2. Maior coeficiente de rendimento (CR);<br />3. Maior carga horária acumulada em disciplinas e atividades.<br /><br />O atendimento a todas as prioridades citadas no parágrafo anterior não assegura a permanência do discente na vaga da disciplina para a qual ele se candidatou.<br /><br />Procedimento para realizar Inscrição Online:1. Acessar o idUFF (https://app.uff.br/iduff/login.uff) em época estabelecida no Calandário Escolar<br />2. Escolher a opção de realizar Inscrição Online no menu lateral<br />"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1575500820973",
+      "conditions": "$inscricao:online",
+      "dialog_node": "response_10_1575500976006",
+      "previous_sibling": "slot_6_1575500983498"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1575500820973",
+      "variable": "$inscricao",
+      "dialog_node": "slot_6_1575500983498"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Então tá bom. O que posso fazer para ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1572303480236",
+      "conditions": "@sentimentos:indiferente",
+      "dialog_node": "response_9_1572304272087",
+      "previous_sibling": "response_8_1572304224018"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu sou uma máquina, não tenho sentimentos. Mas poderia dizer que ficaria feliz em ajudar. E você, como se sente?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1572303480236",
+      "conditions": "true",
+      "dialog_node": "response_9_1572304552006",
+      "previous_sibling": "response_9_1572304272087"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sinto muito por você estar @sentimentos. Como posso melhorar seu dia?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1572303480236",
+      "conditions": "@sentimentos:mal",
+      "dialog_node": "response_8_1572304224018",
+      "previous_sibling": "response_3_1572304153849"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se você está @sentimentos, então eu estou @sentimentos! Como posso deixar seu dia ainda melhor?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1572303480236",
+      "context": {},
+      "conditions": "@sentimentos:bem",
+      "dialog_node": "response_3_1572304153849"
+    },
+    {
+      "type": "folder",
+      "title": "Outros pedidos",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1572303663511",
+      "previous_sibling": "node_6_1574795142458"
+    },
+    {
+      "type": "folder",
+      "title": "Questões Principais",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1574795142458",
+      "previous_sibling": "node_8_1572303262953"
+    },
+    {
+      "type": "folder",
+      "title": "Bate papo",
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1572303262953",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase. "
+              },
+              {
+                "text": "Isso certamente não é gatonês, robonês e nem português, pois eu não estou entendendo haha Você poderia explicar melhor o que deseja?"
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Desculpe, talvez eu não consiga te ajudar nesse assunto. Mas você pode encontrar respostas entrando no site da UFF (http://www.uff.br/?q=faq) ou entrando em contato com a coordenação (caso você seja de SI, o e-mail é: bsi\\@ic.uff.br)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_2_1572303663511"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Miau! Me chamo CatBot e estou aqui para tirar dúvidas sobre os cursos do Instituto de Computação ou posso ajudá-lo com algumas questões genéricas relacionadas a UFF. Como posso ajudá-lo hoje? Se não souber por onde começar, digite AJUDA."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    }
+  ],
+  "workspace_id": "b75449a5-33f8-4c64-b6c9-fde3735b4e44",
+  "counterexamples": [
+    {
+      "text": "To melhor"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
